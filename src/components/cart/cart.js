@@ -29,7 +29,7 @@ const Cart = ({ cart }) => {
       <div className="total">
         <h2>Summary</h2>
 
-        <h3>totla qty: {totalQty}</h3>
+        <h3>total qty: {totalQty}</h3>
         <h3>total sum: {totalSum} $</h3>
         <input className="checkout" type="button" value="CHECKOUT" />
       </div>

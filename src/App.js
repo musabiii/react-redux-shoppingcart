@@ -9,8 +9,8 @@ function App() {
     <div className="App">
       <Header />
       <Routes>
-        <Route path="/" element={<List/>}/>
-        <Route path="/cart" element={<Cart/>} />
+        <Route path="/react-redux-shoppingcart" element={<List/>}/>
+        <Route path="/react-redux-shoppingcart/cart" element={<Cart/>} />
       </Routes>
     </div>
   );
