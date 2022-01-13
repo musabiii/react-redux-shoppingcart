@@ -9,7 +9,7 @@ function App() {
     <div className="App">
       <Header />
       <Routes>
-        <Route path="/" element={<List/>} exact />
+        <Route path="/" element={<List/>}/>
         <Route path="/cart" element={<Cart/>} />
       </Routes>
     </div>

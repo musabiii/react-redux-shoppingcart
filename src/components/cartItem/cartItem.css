@@ -19,6 +19,10 @@
   cursor: pointer;
 }
 
+.cart-item i {
+  color: var(--orange);
+}
+
 .cart img {
   width: 50px;
 }
