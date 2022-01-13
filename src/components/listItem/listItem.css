@@ -1,0 +1,27 @@
+
+.list-item {
+    background-color: #fff;
+    margin: 10px;
+}
+
+.list-item img {
+    width: 300px;
+}
+
+.list input {
+   cursor: pointer;
+   width: 80%;
+   padding: 10px;
+   margin: 10px;
+   color: #fff;
+   background-color: var(--orange);
+
+   color: var(--orange);
+   background-color: #eee;
+   border: 1px var(--orange) solid;
+}
+
+.list input:hover {
+    color: #fff;
+    background-color: var(--orange);
+}
